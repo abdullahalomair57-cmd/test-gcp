@@ -2,7 +2,7 @@ steps:
 - name: 'hashicorp/terraform:light'
   entrypoint: 'bash'
   args:
-  - '-c'
-  - |
-    terraform init
-    terraform apply -auto-approve
+    - '-c'
+    - |
+      terraform init
+      terraform apply -auto-approve
