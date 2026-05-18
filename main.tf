@@ -4,6 +4,6 @@ provider "google" {
 }
 
 resource "google_compute_network" "main_vpc1" {
-  name                    = "abdulla-vpc-test"
-  auto_create_subnetworks = false
+  name                    = "abdulla-vpc-test-1"
+  auto_create_subnetworks = true
 }
