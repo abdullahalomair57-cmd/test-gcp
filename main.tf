@@ -3,7 +3,7 @@ provider "google" {
   region  = "us-central1"
 }
 
-resource "google_compute_network" "main_vpc" {
+resource "google_compute_network" "main_vpc1" {
   name                    = "abdulla-vpc"
   auto_create_subnetworks = false
 }
