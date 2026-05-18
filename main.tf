@@ -5,5 +5,5 @@ provider "google" {
 
 resource "google_compute_network" "main_vpc" {
   name                    = "abdulla-vpc"
-  auto_create_subnetworks = false
+  auto_create_subnetworks = true
 }
